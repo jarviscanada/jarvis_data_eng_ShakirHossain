@@ -14,7 +14,7 @@ sudo systemctl status docker || systemctl #todo
 docker container inspect jrvs-psql
 container_status=$?
 
-# User switch case to handle create|stop|start opetions
+# User switch case to handle create|stop|start options
 case $cmd in
   create)
 
