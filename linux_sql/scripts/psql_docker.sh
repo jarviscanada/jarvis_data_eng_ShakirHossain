@@ -5,26 +5,26 @@ cmd=$1
 db_username=$2
 db_password=$3
 
-# Start docker
-# Make sure you understand the double pipe operator
-sudo systemctl status docker || systemctl #todo
+# Ensure Docker is running
+sudo systemctl status docker >/dev/null 2>&1 || sudo systemctl start docker
 
-# Check container status (try the following cmds on terminal)
-docker container inspect jrvs-psql
+# Check if container exists
+docker container inspect jrvs-psql >/dev/null 2>&1
 container_status=$?
 
-# User switch case to handle create|stop|start options
+# Handle create | start | stop commands
 case $cmd in
   create)
     # Check if container already exists
     if [ $container_status -eq 0 ]; then
-      echo "Container already exists"
+      echo "Container 'jrvs-psql' already exists"
       exit 1
     fi
 
     # Check number of CLI arguments
     if [ $# -ne 3 ]; then
       echo "Create requires a username and password"
+      echo "Usage: $0 create <db_username> <db_password>"
       exit 1
     fi
 
