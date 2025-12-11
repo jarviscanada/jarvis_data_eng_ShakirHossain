@@ -9,7 +9,7 @@ if [ "$#" -ne 5 ]; then
   echo "Illegal number of parameters"
   exit 1
 fi
-
+export PGPASSWORD="$psql_password"
 hostname=$(hostname -f)
 
 cpu_number=$(lscpu | awk -F: '/^CPU\(s\)/ {print $2}' | xargs)
