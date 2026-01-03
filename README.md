@@ -34,7 +34,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ShakirHoss
 ## Education
 **Dalhousie university (2018-2021)**, Bachelor's in Computer Science, Faculty of Computer Science
 
-**Saint Mary's university (2016-2018)**, Diploma of Electrical Engineering, Electrical and Computer Engineering
+**Saint Mary's university (2016-2018)**, Diploma of Electrical Engineering, Faculty of Engineering
 
 
 ## Miscellaneous
