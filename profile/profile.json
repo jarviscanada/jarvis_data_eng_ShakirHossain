@@ -1,0 +1,91 @@
+{
+  "education": [
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor's in Computer Science",
+      "department": "Faculty of Computer Science",
+      "duration": "2018-2021",
+      "school_name": "Dalhousie university"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Diploma of Electrical Engineering",
+      "department": "Electrical and Computer Engineering",
+      "duration": "2016-2018",
+      "school_name": "Saint Mary's university"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain",
+  "highlighted_projects": [
+    {
+      "description": "Designed and Implemented data pipelines using dbt Core to aggregate and store key metrics for an e-commerce platform. Monitored inventory levels, stock turnover, and supply chain efficiency to ensure optimal stock levels and minimize costs.",
+      "git_url": "https://github.com/shakirworks/bravecareer_Data_Engineering_Bootcamp",
+      "name": "Brave Career Data Engineering Bootcamp"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Designed and Implemented a MVP cluster monitoring agent for Jarvis LCA team. The bash agent scheduled over a cron job provides real-time node usage data,generating quantitative insights for future resource planning.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain/tree/cb271a71be705dbfa8110b4619545937a243c14c/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": "Transformed raw transactional data into actionable business intelligence for LGS, an online retail platform. Analyzed customer purchasing patterns,to move the business away from generic marketing toward data-driven personalization.",
+      "git_url": "https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain/tree/cb271a71be705dbfa8110b4619545937a243c14c/python_data_analytics",
+      "name": "Python Data Analytics"
+    }
+  ],
+  "name": "Shakir Hossain",
+  "others": [
+    {
+      "bullets": [
+        "Microsoft Azure Certified- Azure Database Administrator Associate DP-300"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Playing Chess"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis",
+      "description": "Synthesized technical information through creation of data visualization.Write scripts related to stored procedures and triggers.Documented results of software application tests and information and telecommunication systems tests",
+      "duration": "2025-present",
+      "title": "Data Engineer"
+    },
+    {
+      "company": "Emera Energy",
+      "description": "Designed and executed MSSQL and MYSQL Server Migration from on Premise SQL Server to Azure SQL Services, resulting in the decommission of the outdated Windows Server 2008 R2 and reduced maintenance overheads.Built end to end POC ETL Pipelines on Azure Data Factory demonstrating the compatibility of Azure PaaS tools over legacy frameworks such as SSIS and Linked servers.",
+      "duration": "2021-2025",
+      "title": "Solutions Developer"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Java",
+      "PySpark",
+      "Pandas",
+      "Dbt",
+      "Airflow"
+    ],
+    "familiar": [
+      "Azure Data Factory",
+      "Snowflake",
+      "Databricks",
+      "Hadoop",
+      "MSSQL"
+    ],
+    "proficient": [
+      "Python",
+      "Linux/Bash",
+      "RDBMS/SQL",
+      "Agile/Scrum",
+      "Git"
+    ]
+  },
+  "summary": "An experienced Data Analyst with 3+ years of hands-on knowledge of implementing large-scale cloud data pipelines, migrations, and database solutions. An expert in Collaborating with multi-platform teams, working closely with the Front Office and the Asset Management teams.Microsoft Azure Certified- Azure Database Administrator Associate DP-300"
+}
