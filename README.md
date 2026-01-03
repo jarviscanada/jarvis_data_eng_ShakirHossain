@@ -1,56 +1,42 @@
-Introduction
+# Shakir Hossain . Jarvis Consulting
 
-This project focuses on transforming raw transactional data into actionable business intelligence for LGS, an online retail platform. By analyzing customer purchasing patterns, we aim to move the business away from generic marketing toward data-driven personalization.
+An experienced Data Analyst with 3+ years of hands-on knowledge of implementing large-scale cloud data pipelines, migrations, and database solutions. An expert in Collaborating with multi-platform teams, working closely with the Front Office and the Asset Management teams.Microsoft Azure Certified- Azure Database Administrator Associate DP-300
 
-Business Context: LGS operates in a competitive retail environment where customer acquisition costs are rising. To maintain profitability, the business needs to maximize the "Life Time Value" (LTV) of its existing user base by understanding who their best customers are and who is at risk of leaving.
+## Skills
 
-Business Utility: LGS will use these analytic results to drive their CRM and Email Marketing engines. By segmenting customers into groups like "Champions" or "At Risk," the marketing team can deploy specific discount codes or loyalty rewards to the segments where they will have the highest impact on ROI.
+**Proficient:** Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-Technologies Used:
+**Competent:** Java, PySpark, Pandas, Dbt, Airflow
 
-Environment: Jupyter Notebooks for iterative analysis and visualization.
-Language: Python 3.11.
-Libraries: Pandas and NumPy for data wrangling; Matplotlib, Seaborn, and Squarify for RFM visualizations.
-Data Source: Cleaned retail transaction data representing unique customer invoices and purchasing behavior.
+**Familiar:** Azure Data Factory, Snowflake, Databricks, Hadoop, MSSQL
+
+## Jarvis Projects
+
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain](https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain)
 
 
-Project Architecture
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_ShakirHossain/tree/cb271a71be705dbfa8110b4619545937a243c14c/linux_sql)]: Designed and Implemented a MVP cluster monitoring agent for Jarvis LCA team. The bash agent scheduled over a cron job provides real-time node usage data,generating quantitative insights for future resource planning.
 
-The project follows a modular pipeline where data flows from the user-facing application through an analytical layer to generate business insights.
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_ShakirHossain/tree/cb271a71be705dbfa8110b4619545937a243c14c/python_data_analytics)]: Transformed raw transactional data into actionable business intelligence for LGS, an online retail platform. Analyzed customer purchasing patterns,to move the business away from generic marketing toward data-driven personalization.
 
-LGS Web App: The source of truth where customer transactions are recorded via a SQL-based backend.
 
-Data Extraction: Transaction logs are exported into a structured format for analysis.
+## Highlighted Projects
+**Brave Career Data Engineering Bootcamp** [[GitHub](https://github.com/shakirworks/bravecareer_Data_Engineering_Bootcamp)]: Designed and Implemented data pipelines using dbt Core to aggregate and store key metrics for an e-commerce platform. Monitored inventory levels, stock turnover, and supply chain efficiency to ensure optimal stock levels and minimize costs.
 
-Processing Layer: Python-based scripts clean the data, handle missing values (e.g., Customer IDs), and calculate RFM Metrics (Recency, Frequency, Monetary).
 
-Insight Layer: Segmentation logic (Regex mapping) is applied to categorize users.
+## Professional Experiences
 
-Marketing Action: Final segments are fed back into marketing automation tools to trigger personalized campaigns.
+**Data Engineer, Jarvis (2025-present)**: Synthesized technical information through creation of data visualization.Write scripts related to stored procedures and triggers.Documented results of software application tests and information and telecommunication systems tests
 
-Data Analytics and Wrangling
+**Solutions Developer, Emera Energy (2021-2025)**: Designed and executed MSSQL and MYSQL Server Migration from on Premise SQL Server to Azure SQL Services, resulting in the decommission of the outdated Windows Server 2008 R2 and reduced maintenance overheads.Built end to end POC ETL Pipelines on Azure Data Factory demonstrating the compatibility of Azure PaaS tools over legacy frameworks such as SSIS and Linked servers.
 
-The complete technical workflow, including data cleaning and the RFM calculation logic, can be found in the directory: python_data_analytics/python_data_wrangling/retail_data_analytics_wrangling.ipynb
 
-Revenue Growth StrategyTo increase LGS revenue, we recommend a "Tiered Engagement" marketing strategy based on the generated RFM segments:
+## Education
+**Dalhousie university (2018-2021)**, Bachelor's in Computer Science, Faculty of Computer Science
 
-Reactivation of "Can't Lose" Customers: This group has a high average Monetary value ($9,682.5$) and Frequency ($23.1$), making them the most valuable "at-risk" group. We should deploy high-value "Win-back" offers (e.g., 20% off or a free gift) specifically to this group.
+**Saint Mary's university (2016-2018)**, Diploma of Electrical Engineering, Electrical and Computer Engineering
 
-Upselling "Potential Loyalists": With $899$ customers in this group but a relatively low average monetary spend ($961.7$), LGS should use cross-sell recommendations to increase their "Average Order Value" (AOV).
 
-Loyalty Perks for "Champions": These $412$ customers already spend heavily ($6,904.4$ average). 
-
-Instead of discounts, LGS should offer them non-monetary perks like early access to new collections to maintain their high frequency.
-
-New Customer Onboarding: For the $297$ "New Customers," the strategy should focus on a "3-step welcome series" to ensure they make a second purchase and move toward the "Potential Loyalist" segment.
-
-Improvements
-
-If granted additional time, the following enhancements would be implemented:
-
-Automated ETL Pipeline: Replace the manual CSV/Notebook process with an automated pipeline that pulls directly from the LGS production database and updates the RFM scores every 24 hours.
-
-Predictive Churn Modeling: Move beyond descriptive analytics (what happened) to predictive analytics (what will happen) by training a machine learning model to predict the probability of a "Loyal Customer" moving to the "At Risk" segment before it happens.
-
-A/B Testing Integration: Link the segments directly to a testing framework to measure the actual revenue lift generated by the "Can't Lose" reactivation campaign versus a control group.
-
+## Miscellaneous
+- Microsoft Azure Certified- Azure Database Administrator Associate DP-300
+- Playing Chess
