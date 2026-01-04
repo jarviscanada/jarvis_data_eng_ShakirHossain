@@ -26,7 +26,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_ShakirHoss
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis (2025-present)**: Synthesized technical information through creation of data visualization.Write scripts related to stored procedures and triggers.Documented results of software application tests and information and telecommunication systems tests
+**Data Engineer, Jarvis (2025-present)**: Synthesize technical information through creation of data visualization.Write scripts related to stored procedures and triggers.Document results of software application tests, information and telecommunication systems.
 
 **Solutions Developer, Emera Energy (2021-2025)**: Designed and executed MSSQL and MYSQL Server Migration from on Premise SQL Server to Azure SQL Services, resulting in the decommission of the outdated Windows Server 2008 R2 and reduced maintenance overheads.Built end to end POC ETL Pipelines on Azure Data Factory demonstrating the compatibility of Azure PaaS tools over legacy frameworks such as SSIS and Linked servers.
 
