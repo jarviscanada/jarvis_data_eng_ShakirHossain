@@ -1,6 +1,6 @@
 # Shakir Hossain . Jarvis Consulting
 
-An experienced Data Analyst with 3+ years of hands-on knowledge of implementing large-scale cloud data pipelines, migrations, and database solutions. An expert in Collaborating with multi-platform teams, working closely with the Front Office and the Asset Management teams.Microsoft Azure Certified- Azure Database Administrator Associate DP-300
+An experienced Data Analyst with over 3 years of hands-on experience implementing large-scale cloud data pipelines, migrations, and database solutions. Proven expertise in collaborating with multi-platform teams and working closely with Front Office and Asset Management stakeholders. Microsoft Azure Certified- Azure Database Administrator Associate (DP-300).
 
 ## Skills
 
