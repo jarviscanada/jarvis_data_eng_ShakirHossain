@@ -23,11 +23,12 @@ skills:
     - Pandas
     - Dbt
     - Airflow
+    - Scala
+    - Databricks
   # At least 5 skills
   familiar:
     - Azure Data Factory
     - Snowflake
-    - Databricks
     - Hadoop
     - MSSQL
 
@@ -50,12 +51,12 @@ jarvis_projects:
   - name: "Python Data Analytics"
     git_url: https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain/tree/cb271a71be705dbfa8110b4619545937a243c14c/python_data_analytics
     description: Transformed raw transactional data into actionable business intelligence for LGS, an online retail platform. Analyzed customer purchasing patterns,to move the business away from generic marketing toward data-driven personalization.
-  #- name: "Hadoop"
-  #  git_url: "/hadoop"
-  #  description: ""
-  #- name: "Spark"
-  #  git_url: "/spark"
-  #  description: ""
+  - name: "Databricks Analytics Project"
+    git_url: https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain/tree/2494826fee10fdd4a6139c5a79280f89898186a7/databricks_analytics
+    description: Redesigned the Data solution using Apache Spark hosted in Databricks workspace, allowing big data processing in a muti node processing cluster.
+  - name: "Jarvis Hive Project"
+    git_url: https://github.com/jarviscanada/jarvis_data_eng_ShakirHossain/tree/2494826fee10fdd4a6139c5a79280f89898186a7/databricks_analytics
+    description: Exported data from Google Storage location to Hadoop Cluster. Written and optimized Hive Queries using Hive Partitions. Improved Runtime execution via Columnar File Optimization.
   #- name: "Cloud/DevOps"
   #  git_url: "/cloud_devops"
   #  description: ""
@@ -69,10 +70,9 @@ highlighted_projects:
     git_url: https://github.com/shakirworks/bravecareer_Data_Engineering_Bootcamp
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Designed and Implemented data pipelines using dbt Core to aggregate and store key metrics for an e-commerce platform. Monitored inventory levels, stock turnover, and supply chain efficiency to ensure optimal stock levels and minimize costs.
-  #- name: "Machine Learning"
-  #  git_url:
-  #  description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
+  - name: "Machine Learning Project with Alexey Grigorev"
+    git_url: https://github.com/shakirworks/ML-Zoomcamp-with-Alexey-Grigorev-Homeworks.git
+    description: Generated ML models and evaluated based on Classification and Regression Metrics.Transformed ML applications into serverless web services using Docker,Kubernetes and AWS Lambda.
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
@@ -87,7 +87,10 @@ professional_experience:
     company: "Emera Energy"
     duration: "2021-2025"
     description: Designed and executed MSSQL and MYSQL Server Migration from on Premise SQL Server to Azure SQL Services, resulting in the decommission of the outdated Windows Server 2008 R2 and reduced maintenance overheads.Built end to end POC ETL Pipelines on Azure Data Factory demonstrating the compatibility of Azure PaaS tools over legacy frameworks such as SSIS and Linked servers.
-
+  - title: "Software Developer"
+    company: "LED Roadway LTD"
+    duration: "2019-2020"
+    description: Developed an Android application, enabling a better accessibility to the company's streetlamp microsensors geo position and performance data.Created a Geographical User Interface for the App via Open Street Map API, displaying the live data feed and location of the sensors
 #List of edcuation
 education: 
   - school_name: "Dalhousie university"
@@ -118,5 +121,5 @@ others:
   - title: "Activities/Hobbies"
     bullets:
       - "Chess Enthusiast "
-      #- "Competitive gaming"
+      - "Recreational Golfer"
       #- "Volunteer, ABC Food bank: Ut enim ad minim veniam"
