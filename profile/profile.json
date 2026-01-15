@@ -92,14 +92,16 @@
       "PySpark",
       "Pandas",
       "Dbt",
-      "Airflow"
+      "Airflow",
+      "Scala",
+      "Databricks"
     ],
     "familiar": [
       "Azure Data Factory",
       "Snowflake",
-      "Databricks",
       "Hadoop",
-      "MSSQL"
+      "MSSQL",
+      "AWS"
     ],
     "proficient": [
       "Python",
