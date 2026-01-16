@@ -4,11 +4,11 @@ An experienced Data Engineer with over 3 years of hands-on experience designing 
 
 ## Skills
 
-**Proficient:** Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Python, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git, Docker
 
-**Competent:** Java, PySpark, Pandas, Dbt, Airflow, Scala, Databricks
+**Competent:** Java, PySpark, Pandas, Dbt, Airflow, Scala, Databricks, YAML, Tableau, PowerBi, Kafka
 
-**Familiar:** Azure Data Factory, Snowflake, Hadoop, MSSQL, AWS
+**Familiar:** Azure DevOps, Azure Data Factory, Snowflake, Hadoop, Ubuntu, MSSQL, AWS
 
 ## Jarvis Projects
 
