@@ -16,6 +16,7 @@ skills:
     - RDBMS/SQL
     - Agile/Scrum
     - Git
+    - Docker
   # At least 5 skills
   competent:
     - Java
@@ -25,11 +26,17 @@ skills:
     - Airflow
     - Scala
     - Databricks
+    - YAML
+    - Tableau
+    - PowerBi
+    - Kafka
   # At least 5 skills
   familiar:
+    - Azure DevOps
     - Azure Data Factory
     - Snowflake
     - Hadoop
+    - Ubuntu
     - MSSQL
     - AWS
 

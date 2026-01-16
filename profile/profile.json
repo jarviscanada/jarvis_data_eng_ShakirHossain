@@ -94,12 +94,18 @@
       "Dbt",
       "Airflow",
       "Scala",
-      "Databricks"
+      "Databricks",
+      "YAML",
+      "Tableau",
+      "PowerBi",
+      "Kafka"
     ],
     "familiar": [
+      "Azure DevOps",
       "Azure Data Factory",
       "Snowflake",
       "Hadoop",
+      "Ubuntu",
       "MSSQL",
       "AWS"
     ],
@@ -108,7 +114,8 @@
       "Linux/Bash",
       "RDBMS/SQL",
       "Agile/Scrum",
-      "Git"
+      "Git",
+      "Docker"
     ]
   },
   "summary": "An experienced Data Engineer with over 3 years of hands-on experience designing and implementing cloud data pipelines, database solutions, and large-scale migrations on Azure and modern data platforms. A proven track record collaborating with cross-functional teams and asset management stakeholders to deliver reliable, business-critical data products."
