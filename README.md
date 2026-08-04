@@ -1,4 +1,4 @@
-# Shakir Hossain . Jarvis Consulting
+# Shakir Hossain
 
 An experienced Data Engineer with over 3 years of hands-on experience designing and implementing cloud data pipelines, database solutions, and large-scale migrations on Azure and modern data platforms. A proven track record collaborating with cross-functional teams and asset management stakeholders to deliver reliable, business-critical data products.
 
